@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+}
+
+.container {
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.espaco {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.esquerda {
+    flex: 2;
+}
+
+.direita {
+    flex: 1;
+}
+
+h2 {
+    margin-top: 0;
+    color: #1e4db7;
+}
+
+.botao {
+    background: #1e4db7;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 8px 0;
+    text-align: center;
+}
+
+.status {
+    background: #f5f7fb;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icone {
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: white;
+    font-size: 12px;
+}
+
+.verde { background: #28a745; }
+.amarelo { background: #ffc107; color: black; }
+.vermelho { background: #dc3545; }
+
+.produtos {
+    display: flex;
+    gap: 15px;
+}
+
+.produto {
+    background: #f5f7fb;
+    padding: 15px;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+}
+
+.requisicoes {
+    background: #f5f7fb;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}

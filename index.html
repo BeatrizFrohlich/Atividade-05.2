@@ -3,71 +3,122 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Tela 2</title>
+    <link rel="stylesheet" href="pagina2.css">
 </head>
 <body>
-    
+ 
 <header>
+<div class="container">
 
-    <nav id="navbar">
-        <img id="Assets/robo.jfif" alt="Robo">
+        <div class="row">
 
-        <h2> Olá, tudo bem? </h2>
-        <br>
-        <h2>Como posso</h2>
-        <h2>ajudar hoje?</h2>
-        <h5>Fale comigo!</h5>
+            <div class="espaco esquerda">
+                <h2>Olá, tudo bem?</h2>
+                <p>Como posso ajudar hoje?</p>
 
-        <ul id="Menu">
-            <li class="li1">QUERO COMPRAR MATERIAL</li>
-            <li class="li2">QUERO COMPRAR SERVIÇO</li>
-            <li class="li3">CONSULTAR FLUXO DE PROCESSOS</li>
-            <li class="li4">STATUS DAS MINHAS REQUISIÇÕES</li>
-            <li class="li5">NÃO SEI AO CERTO, ME AJUDE</li>
-        </ul>
-    </nav>
+                <div class="botao">QUERO COMPRAR MATERIAL</div>
+                <div class="botao">QUERO COMPRAR SERVIÇO</div>
+                <div class="botao">CONSULTAR PROCESSOS</div>
+                <div class="botao">STATUS DAS REQUISIÇÕES</div>
+            </div>
 
+            <div class="espaco direita">
+                <h2>Status de pedidos recentes</h2>
 
+                <div class="status">
+                    <p>#125</p>
+                    <span class="icone verde">Processando</span>
+                </div>
 
+                <div class="status">
+                    <p>#125</p>
+                    <span class="icone amarelo">Aguardando</span>
+                </div>
+
+                <div class="status">
+                    <p>#125</p>
+                    <span class="icone vermelho">Cancelado</span>
+                </div>
+
+                <div class="status">
+                    <p>#125</p>
+                    <span class="icone verde">Processando</span>
+                </div>
+            </div>
+
+        </div>
 </header>
-    <main>
-        <section id="compras">
-            <div class="produtos">
+    <div class="espaco">
+        <h2>Baseado em suas últimas compras</h2>
+
+        <div class="produtos">
+            <div class="produto">
+                <img src="Assets/PacoteChamex.jpg">
                 <br>
-                <img id="img" src="Assets/PacoteChamex.jpg">
-                <p>Papel Chamex A4</p>
+                <p>Papel A4</p>
+                <br>
+                <p>R$ 34,90</p>
             </div>
 
-            <div class="produtos">
+            <div class="produto">
+                <img src="Assets/SAP.png" >
                 <br>
-                <img id="img" src="Assets/SAP.png">
-                <p>Papel Chamex A4</p>
+                <p>Solicitar Serviço</p>
+                <br>
+                <p>R$ 120,00</p>
             </div>
 
-            <div class="produtos">
+            <div class="produto">
+                <img src="Assets/grampeador.jpg">
                 <br>
-                <img id="img" src="Assets/grampeador.jpg">
                 <p>Grampeador</p>
+                <br>
+                <p>R$ 18,00</p>
             </div>
 
-            <div class="produtos">
+            <div class="produto">
+                <img src="Assets/caneta.webp">
                 <br>
-                <img id="img" src="Assets/caneta.webp">
-                <p>Caneta BIC azul</p>
+                <p>Caneta Azul</p>
+                <br>
+                <p>R$ 2,50</p>
             </div>
 
-            <div class="produtos">
+            <div class="produto">
+                <img src="Assets/LapisVerde.png">
                 <br>
-                <img id="img" src="Assets/LapisVerde.png">
                 <p>Lapis preto</p>
-            </div>
-
-            <div class="produtos">
                 <br>
-                <img id="img" src="Assets/caderno.jpg">
-                <p>Caderno</p>
-            </div>
+                <p>R$ 0,50</p>
 
-        </section>
-    </main>
+                <div class="produto">
+                <img src="Assets/caderno.jpg">
+                <br>
+                <p>caderno</p>
+                <br>
+                <p>R$ 18,50</p>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="espaco">
+        <h2>Status das últimas requisições</h2>
+
+        <div class="requisicoes">
+           <p> Pedido #12345 - Requisição - Vendedor - Cotação - Processado</p>
+        </div>
+
+        <div class="requisicoes">
+           <p> Pedido #12346 - Requisição - Vendedor - Cotação</p>
+        </div>
+
+        <div class="requisicoes">
+           <p> Pedido #12347 - Requisição - Vendedor </p>
+        </div>
+
+    </div>
+
+</div>
 </body>
 </html>
