@@ -1,0 +1,50 @@
+/* Pagina 1 */
+
+*{
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+.borda{
+    margin: 0;
+}
+
+/*Começo */
+.container-pri{
+    max-width: 100%;
+    margin: 0;
+}
+
+.subtitulo button{
+    display: block;
+    width: 100%;
+}
+
+.subtitulo{
+    display: flex;
+    gap: 5px;
+    
+}
+
+/*Navegação*/
+.layaut{
+    display: flex;
+}
+.navegacao h2{
+    display: flex;
+    align-items: center;
+}
+.navegacao img{
+    width: 27px;
+    height: 27px;
+    object-fit: cover;
+}
+
+.botao-nav button{
+    display: block;
+    width: 100%;  
+}
+
+.botao-nav {
+    display: flex;
+    gap: 5px;  
+}
